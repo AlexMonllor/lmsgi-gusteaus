@@ -1,0 +1,64 @@
+/* Reset de estilos básico */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7d0f1;
+}
+
+header {
+    background-color: #5a3e36;
+    color: #ebf594;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.menu-estrella h2 {
+    color: #5a3e36;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-estrella ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-estrella li {
+    background-color: #eacaf3;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-estrella li:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-estrella li[data-alergenos="nueces"] {
+    border-color: #8a6d3b;
+}
+
+.menu-estrella li[data-alergenos="mariscos"] {
+    border-color: #3a87ad;
+}
+
+footer {
+    background-color: #5a3e36;
+    color: #ebf594;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
