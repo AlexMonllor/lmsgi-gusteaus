@@ -1,5 +1,7 @@
+
 a:hover{
     color:#5a3e36;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #contenedor{
@@ -9,3 +11,4 @@ a:hover{
     font-size: 18px;
 
 }
+
